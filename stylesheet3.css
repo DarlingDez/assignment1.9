@@ -1,0 +1,110 @@
+@media (max-width: 500px) {
+    body{
+        background: -webkit-black;
+        background: -moz-black;   
+    }
+}
+body{
+    background: black;
+}
+.w3-bar{
+    position: relative;
+    top: -30px;  
+}
+.logo{ 
+    text-align: center;  
+    padding: 20px;  
+}
+.title{
+    position: relative;
+    left: 120px;
+    top: -70px;
+    font-family: fantasy;
+    font-size: 200%;
+    color: white;
+}
+.links{
+    position: relative;
+    top: -160px;
+    left: 1750px;
+    color: white;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+article{
+    padding: 30px 150px 30px 150px;
+    color: white;
+}
+.footer-container{
+    background-color:red;
+    padding-bottom:4rem;
+    
+}
+.footer{
+    width:80%;
+    height:10vh;
+    background-color:red;
+    color:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:0 auto;
+}
+p{
+    color:white;
+    padding:15px;
+}
+.jobs{
+    color: white;
+    border: white;
+}
+.job_1{
+    border: solid white;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+.job_2{
+    border: solid white;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+.job_3{
+    border: solid white;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+.space_break1{
+    padding: 50px;
+}
+.courses{
+    color: white;
+    border: white;
+}
+.course_1{
+    border: solid white;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+.space_break2{
+    padding: 50px;
+}
+.course_2{
+    border: solid white;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+.space_break3{
+    padding: 50px;
+}
+.course_3{
+    border: solid white;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}

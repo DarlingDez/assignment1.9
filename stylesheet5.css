@@ -1,0 +1,109 @@
+@media (max-width: 500px) {
+    body{
+        background: -webkit-black;
+        background: -moz-black;   
+    }
+}
+body{
+    background: black;
+}
+.w3-bar{
+    position: relative;
+    top: -30px;  
+}
+.logo{ 
+    text-align: center;  
+    padding: 20px;  
+}
+.title{
+    position: relative;
+    left: 120px;
+    top: -70px;
+    font-family: fantasy;
+    font-size: 200%;
+    color: white;
+}
+.links{
+    position: relative;
+    top: -160px;
+    left: 1750px;
+    color: white;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+article{
+    padding: 30px 150px 30px 150px;
+    color: white;
+}
+.footer-container{
+    background-color:red;
+    padding-bottom:4rem;
+    
+}
+.footer{
+    width:80%;
+    height:10vh;
+    background-color:red;
+    color:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:0 auto;
+}
+p{
+    color:white;
+    padding:15px;
+}
+form{
+    /* centre the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* form outline */
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    position: relative;
+    top: -14px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li{
+    margin-top: 1em;
+    
+}
+label{
+    /* uniform size and alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textArea{
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+input:focus, textArea:focus{
+    border-color: #000;
+}
+textArea{
+    vertical-align: top;
+    height: 5em;
+}
+button{
+    text-align: center;
+    margin-left: .5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 7px;
+    left: 200px;
+}
+label{
+    color: white;
+    padding: 10px;
+}
